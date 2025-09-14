@@ -28,7 +28,7 @@ main {
 
 .left {
     width: 50%;
-    height: 305px;
+    height: 335px;
     border-radius: 12px;
     background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsla(241, 81%, 54%, 0.651));
     display: flex;
@@ -47,7 +47,7 @@ h2 {
     font-size: 18px;
     font-weight: 500;
     color: hsl(241, 100%, 89%);
-    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .circle {
@@ -55,7 +55,7 @@ h2 {
     width: 120px;
     height: 120px;
     border-radius: 100%;
-    margin-top: 15px ;
+    margin-bottom: 15px ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +93,7 @@ h3 {
     color: hsla(0, 0%, 0%, 0.811);
     font-size: 18px;
     font-weight: 700;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .reaction {
@@ -183,7 +183,10 @@ nav {
 a{
     text-decoration: none;
     background-color:  hsl(224, 30%, 27%);
-    padding: 10px 70px;
+    display: inline-block;
+    width: 90%;
+    text-align: center;
+    padding: 8px 0px;
     border-radius: 12px;
     color: hsl(0, 0%, 100%);
     font-size: 14px;
